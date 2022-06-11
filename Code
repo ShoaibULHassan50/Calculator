@@ -1,0 +1,16 @@
+def cal(a,b,opt):
+
+    if opt == '+':
+        res = a + b
+    elif opt == '-':
+        res = a - b
+    elif opt == '/':
+        res = a / b
+    elif opt == '*':
+        res = a * b
+    else:
+        res = "invalid operator found"
+
+    return res
+
+print(cal(14,6,'-'))
